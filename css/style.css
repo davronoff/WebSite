@@ -1,0 +1,333 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgb(0,0,0,0.7), rgb(0,0,0,0.7)), url(/images/NavbarBgImage.jpg);
+    background-position: center;
+    background-size: cover;
+    border-bottom:1px solid black ;
+}
+.navbar{
+    background-color: #fff;
+    height: 52px;
+    border-bottom: 1px solid black;
+    width: 100%;
+}
+.navbar-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.site-logo{
+    height: 50px;
+    width: 42px;
+    padding: 3px;
+}
+.navbar ul, ul li{
+    display: inline-block;
+}
+.navbar ul li a{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    color: #00000099;
+    border-radius: 3px;
+}
+.navbar a.active, a:hover{
+    background-color: #dfdfdf;
+    transition: .5s;
+}
+.qoute{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #ffffff99;
+    margin-top: 340px;
+}
+.qoute h1{
+    font-size: 65px;
+}
+.qoute p{
+    font-size: 15px;
+}
+.title h1{
+    font-size: 55px;
+    text-align: center;
+    color: #000000d5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.title p{
+    text-align: center;
+    color: #00000070;
+    font-size: 17px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.parent{
+    margin-top: 50px;
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;    
+}
+.box{ 
+    width: 25%;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 10px 7px 25px #00000050;
+    height: 410px;
+}
+.box img{
+    object-fit: cover;
+    width: 250px;
+    height: 300px;
+    margin: 15px 5px;
+    border-radius: 10px;
+    transition: transform 0.5s;
+}
+.box img:hover{
+    transition: .5s;
+    transform: translateY(-6px);
+}
+.pTitle{
+    color: #000000d5;
+    font-size: 17px;
+    text-align: left;
+    margin-left: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.bTitle{
+    padding: 5px;
+    color: #00000070;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.bTitle:hover{
+    padding: 5px;
+    color: #00000070;
+    border: 1px solid rgb(180, 180, 180);
+    border-radius: 5px;
+    transition: .3s;
+}
+.parent-2{
+    display: flex;
+    justify-content: center;
+}
+.servicePage .box-2{
+    margin-top: 50px;
+    width: 33%;
+}
+.box-2 h3{
+    font-size: 35px;
+    color: #000000d5;
+}
+.L1 li{
+    margin-left: 20px;
+    padding: 2px 0;
+    color: #00000099;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.L1{
+    padding: 3px 0;
+}
+.box-2 ul, ul li{
+    display: block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.parent-3{
+    margin-top: 35px;
+    margin-bottom: 35px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.box-3{
+    width: 23%;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 10px 7px 25px #00000050;
+}
+.box-3 .eI{
+    object-fit: cover;
+    width: 250px;
+    height: 175px;
+    border-radius: 10px;
+    transition: transform 0.5s;
+    height: 250px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.box-3 .eI:hover{
+    transition: .5s;
+    transform: translateY(-6px);
+}
+.box-3 .eT{
+    font-size: 20px;
+    margin: 7px 0;
+    color: #000000d5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.box-3 p{
+    text-align:center;
+    font-size: 14px;    
+    margin: 7px 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.mainT{
+    margin-top: 15px;
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.parent-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-4{
+    width: 15%;
+}
+.box-4 .oeI{
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    transition: transform 0.5s;
+    object-fit: cover;
+}
+.box-4 .oeI:hover{
+    transition: .5s;
+    transform: translateY(-6px);
+}
+.mP{
+    text-align: center;
+    font-size: 17px;
+    margin-top: 35px;
+    margin-bottom: 15px;
+    color: #000000d5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.ceo{
+    margin-top: 30px;
+    text-align: center;
+}
+.ceoImage{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    object-fit: cover;
+    transition: transform 0.5s;
+}
+.ceoImage:hover{
+    transition: .5s;
+    transform: translateY(-6px);
+}
+.infoPosition h1{
+    font-size: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #000000d5;
+    text-align: center;
+}
+.infoPosition p{
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #00000070;
+    text-align: center;
+}
+.parent-5{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.box-5{
+    width: 30%;
+    text-align: center;
+}
+.staffImage{
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    object-fit: cover;
+}
+.contactForm{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+form {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center
+}
+label {
+    display: block;
+    text-align: left;
+    margin-bottom: 8px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: #D9D9D9;
+    border: none;
+    border-radius: 5px;
+}
+button {
+    width: 100px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+button:hover {
+    background-color: #229728;
+}
+footer{
+    border-top: 1px solid black ;
+    background-color: #BCBBBB;
+    height: 200px;
+    width: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 40px;
+    color: #000000d5;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 30px;
+    text-transform: capitalize;
+}
+.social{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.social a{
+    text-decoration: none;
+    color: #000000d5;
+}
+.social a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+    padding: 5px;
+}
+.social a:hover i{
+    color: aqua;
+}
+.footer-bottom{
+    text-align: center;
+    color: #000000d5;
+}
